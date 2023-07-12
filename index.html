@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem é você?</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="titulos">
+
+            <h1>Olá bem vindo ao programa!</h1>
+            <p>Por gentileza preencha os dados abaixos</p>
+
+        </div>
+
+        <div class="formulario">
+
+            <input type="text" name="Nome" id="nome" placeholder="Qual o seu nome?">
+            <input type="number" name="Idade" id="idade" placeholder="Quantos anos você tem?">
+            <input type="text" name="linguagem" id="linguagem"
+                placeholder="Qual linguagem de programação você está estudando?">
+            <input type="submit" name="confirmar" id="confirmar" placeholder="confirmar">
+
+            <span class="mensagem"></span>
+
+            <div class="boleano">
+
+                <p class="novaPergunta"></p>
+                <div class="opcoes">
+                    <label for="boleano">
+                        Sim
+                        <input class="boleanoSimNao" type="radio" name="opcao" id="btn" value="sim">
+                    </label>
+
+                    <label for="boleano">
+                        Não
+                        <input class="boleanoSimNao" type="radio" name="opcao" id="btn" value="nao">
+                    </label>
+
+                </div>
+
+                <span class="resposta"></span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script/main.js"></script>
+
+
+</body>
+
+</html>
