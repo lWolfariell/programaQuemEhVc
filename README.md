@@ -1,4 +1,4 @@
-# #7DaysOfCode
+# 7DaysOfCode
 Programa realizado, com base no desafio #7DaysOfCode
 Objetivo:
 Desenvolver um programa simulando que ele deve pedir para o usuário responder 3 perguntas:
